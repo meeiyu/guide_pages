@@ -1,0 +1,142 @@
+/*=============================media query=============================*/
+
+@media (max-width: 768px) {
+    html, body {
+        font-family: "Times New Roman", Times, serif, verdana;
+        text-align:center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .header,
+    .footer {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .header {
+        margin-bottom: 5px;
+    }
+
+    .header img {
+        margin-bottom:20px; 
+    }
+
+    .footer {
+        padding-top: 19px;
+        color: #777;
+        border-top: 1px solid #e5e5e5;
+    }
+
+    .logo{
+        font-family: verdana;
+        font-size:200%;
+        font-weight: 900;
+        padding: 10px;
+    }
+}/*End min-width: 768px */
+
+    
+@media (max-width: 480px) {  /* Smartphones (portrait and landscape) */
+    html, body {
+        font-family: "Times New Roman", Times, serif, verdana;
+        text-align:center;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+
+    .header,
+    .footer {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .header {
+        margin-bottom: 5px;
+    }
+
+    .header img {
+        padding: 5px;
+        margin-bottom:5px;
+        max-width: 20%; 
+    }
+
+    .footer {
+        padding-top: 19px;
+        color: #777;
+        border-top: 1px solid #e5e5e5;
+    }
+
+    .logo{
+        font-family: verdana;
+        font-size:140%;
+        font-weight: 900;
+        padding: 0px;
+    }        
+}/*End max-width : 480px*/
+
+@media (min-width: 768px) and (max-width: 979px) {  /* Tablet and phone */
+    html, body {
+        font-family: "Times New Roman", Times, serif, verdana;
+        text-align:center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .header,
+    .footer {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .header {
+        margin-bottom: 0px;
+    }
+
+    .header img {
+        margin-bottom:20px; 
+    }
+
+    .footer {
+        padding-top: 19px;
+        color: #777;
+        border-top: 1px solid #e5e5e5;
+    }
+    .logo{
+        font-family: verdana;
+        font-size:200%;
+        font-weight: 900;
+        padding: 10px;
+    }
+}/*End (min-width: 768px) and (max-width: 979px) */
+
+    
+@media (min-width: 980px) {    /* Desktop */
+    html, body {
+        font-family: "Times New Roman", Times, serif, verdana;
+        text-align:center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .header,
+    .footer {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .header {
+        margin-bottom: 10px;
+    }
+    .header img {
+        margin-bottom:20px; 
+    }
+    .footer {
+        padding-top: 19px;
+        color: #777;
+        border-top: 1px solid #e5e5e5;
+    }
+    .logo{
+        font-family: verdana;
+        font-size:200%;
+        font-weight: 900;
+        padding: 10px;
+    }
+  
+}/*End min-width: 980px */
